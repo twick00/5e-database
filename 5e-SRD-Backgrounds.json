@@ -1,1 +1,97 @@
-
+[
+  {
+    "index": 1,
+    "name": "Acolyte",
+    "feature": {
+      "name": "Shelter of the faithful",
+      "description":
+        "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle."
+    },
+    "proficiencies": ["religion", "insight"]
+  },
+  {
+    "index": 2,
+    "name": "Charlatan",
+    "feature": {
+      "name": "False Identity",
+      "description":
+        "You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy."
+    },
+    "proficiencies": ["deception", "sleight of hand"]
+  },
+  {
+    "index": 3,
+    "name": "Criminal",
+    "feature": {
+      "background": {
+        "name": "Criminal Contact",
+        "description":
+          "You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
+      },
+      "variant": {
+        "name": "Spy",
+        "description":
+          "Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder."
+      }
+    },
+    "proficiencies": ["deception", "stealth"]
+  },
+  {
+    "index": 4,
+    "name": "Entertainer",
+    "feature": {
+      "background": {
+        "name": "By Popular Demand",
+        "description":
+          "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+      },
+      "variant": {
+        "name": "Gladiator ",
+        "description":
+          "A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your By Popular Demand feature, you can find a place to perform in any place that features combat for entertainment—perhaps a gladiatorial arena or secret pit fighting club. You can replace the musical instrument in your equipment package with an inexpensive but unusual weapon, such as a trident or net."
+      }
+    },
+    "proficiencies": ["acrobatics", "performance"]
+  },
+  {
+    "index": 5,
+    "name": "Folk Hero",
+    "feature": {
+      "background": {
+        "name": "Rustic Hospitality",
+        "description":
+          "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+      }
+    },
+    "proficiencies": ["animal handling", "survival"]
+  },
+  {
+    "index": 6,
+    "name": "Guild Artisan",
+    "feature": {
+      "background": {
+        "name": "Rustic Hospitality",
+        "description":
+          "As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings. Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild’s coffers. You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild’s good graces."
+      },
+      "variant": {
+        "name": "Guild Merchant",
+        "description":
+          "Instead of an artisans’ guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant’s life lends itself to adventure far more than the life of an artisan. Rather than proficiency with artisan’s tools, you might be proficient with navigator’s tools or an additional language. And instead of artisan’s tools, you can start with a mule and a cart."
+      }
+    },
+    "proficiencies": ["insight", "persuasion"]
+  },
+  {
+    "index": 7,
+    "name": "Folk Hero",
+    "feature": {
+      "background": {
+        "name": "Discovery",
+        "description":
+          "The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who consigned you to exile, and hence the reason for your return to society. Work with your DM to determine the details of your discovery and its impact on the campaign."
+      }
+    },
+    "proficiencies": ["medicine", "religion"]
+  }
+]
